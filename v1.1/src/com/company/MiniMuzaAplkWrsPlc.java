@@ -14,10 +14,10 @@ public class MiniMuzaAplkWrsPlc {
 
           MidiEvent zdarzenie = null;
 
-          //ShortMessage pierwszy = new ShortMessage();
-          //pierwszy.setMessage(192, 1, instrument, 0);
-          //MidiEvent zmienInstrument = new MidiEvent(pierwszy, 1);
-          //sciezka.add(zmienInstrument);
+          ShortMessage pierwszy = new ShortMessage();
+          pierwszy.setMessage(192, 1, instrument, 0);
+          MidiEvent zmienInstrument = new MidiEvent(pierwszy, 1);
+          sciezka.add(zmienInstrument);
 
           ShortMessage a = new ShortMessage();
           a.setMessage(144, 1, nuta, 100);
